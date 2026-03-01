@@ -7,7 +7,7 @@ import os
 pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Vertical Duel with Textures")
+pygame.display.set_caption("metal weapon shooting")
 clock = pygame.time.Clock()
 
 # Кольори
@@ -146,5 +146,6 @@ while running:
         
     pygame.display.flip()
     clock.tick(60)
+
 
 pygame.quit()
